@@ -1,0 +1,100 @@
+[2020-09-21 12:45:17,344] {/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py:1892} ERROR - Exception on /user/list [GET]
+Traceback (most recent call last):
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 107, in wrapper
+    verify_jwt_in_request()
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 32, in verify_jwt_in_request
+    jwt_data, jwt_header = _decode_jwt_from_request(request_type='access')
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 314, in _decode_jwt_from_request
+    raise NoAuthorizationError(errors[0])
+flask_jwt_extended.exceptions.NoAuthorizationError: Missing Authorization Header
+[2020-09-21 12:45:17,347] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:72} ERROR - 
+[2020-09-21 12:45:47,983] {/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py:1892} ERROR - Exception on /user/list [GET]
+Traceback (most recent call last):
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 107, in wrapper
+    verify_jwt_in_request()
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 32, in verify_jwt_in_request
+    jwt_data, jwt_header = _decode_jwt_from_request(request_type='access')
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 314, in _decode_jwt_from_request
+    raise NoAuthorizationError(errors[0])
+flask_jwt_extended.exceptions.NoAuthorizationError: Missing Authorization Header
+[2020-09-21 12:45:47,991] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:72} ERROR - 
+[2020-09-21 12:46:15,563] {/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py:1892} ERROR - Exception on /user/list [GET]
+Traceback (most recent call last):
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py", line 33, in wrapper
+    verify_jwt_in_request()
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 32, in verify_jwt_in_request
+    jwt_data, jwt_header = _decode_jwt_from_request(request_type='access')
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 314, in _decode_jwt_from_request
+    raise NoAuthorizationError(errors[0])
+flask_jwt_extended.exceptions.NoAuthorizationError: Missing Authorization Header
+[2020-09-21 12:46:15,566] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:72} ERROR - 
+[2020-09-21 12:55:20,783] {/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py:1892} ERROR - Exception on /user/list [GET]
+Traceback (most recent call last):
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py", line 33, in wrapper
+    verify_jwt_in_request()
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 32, in verify_jwt_in_request
+    jwt_data, jwt_header = _decode_jwt_from_request(request_type='access')
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 314, in _decode_jwt_from_request
+    raise NoAuthorizationError(errors[0])
+flask_jwt_extended.exceptions.NoAuthorizationError: Missing Authorization Header
+[2020-09-21 12:55:20,794] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:72} ERROR - 
+[2020-09-21 12:55:22,474] {/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py:1892} ERROR - Exception on /user/list [GET]
+Traceback (most recent call last):
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py", line 33, in wrapper
+    verify_jwt_in_request()
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 32, in verify_jwt_in_request
+    jwt_data, jwt_header = _decode_jwt_from_request(request_type='access')
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 314, in _decode_jwt_from_request
+    raise NoAuthorizationError(errors[0])
+flask_jwt_extended.exceptions.NoAuthorizationError: Missing Authorization Header
+[2020-09-21 12:55:22,475] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:72} ERROR - 

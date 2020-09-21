@@ -1,0 +1,63 @@
+[2020-09-21 12:58:04,844] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:68} WARNING - REQUEST_LOG	{"method": "GET", "code": "200 OK", "uri": "/user/list?", "request": {"full_name": "Derby P S", "username": "derbyps", "password": "derbyps", "email": "derby@gmail.com", "address": "Tandes Kidul II", "city": "Surabaya", "telephone": "085645692314"}, "response": [{"id": 1, "client_id": 2, "full_name": "Derby P S", "username": "derbyps", "email": "derby@gmail.com", "password": "36ca97ba24a24b2fedfdb0c99b94295f3df42c80b4fc9c2efe880fd0ce0c1c04d8ebc4d1e2350a4f27485bad2d7205e758c5b6fac09a3502c84ffea24536ba91", "address": "Tandes Kidul II", "city": "Surabaya", "telephone": "085645692314"}]}
+[2020-09-21 12:58:21,830] {/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py:1892} ERROR - Exception on /user/list [GET]
+Traceback (most recent call last):
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 107, in wrapper
+    verify_jwt_in_request()
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 32, in verify_jwt_in_request
+    jwt_data, jwt_header = _decode_jwt_from_request(request_type='access')
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 314, in _decode_jwt_from_request
+    raise NoAuthorizationError(errors[0])
+flask_jwt_extended.exceptions.NoAuthorizationError: Missing Authorization Header
+[2020-09-21 12:58:21,834] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:72} ERROR - 
+[2020-09-21 13:00:06,766] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:68} WARNING - REQUEST_LOG	{"method": "POST", "code": "200 OK", "uri": "/auth?", "request": {"username": "derbyps", "password": "derbyps"}, "response": {"claims": {}}}
+[2020-09-21 13:00:44,762] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:72} ERROR - 
+[2020-09-21 13:01:32,322] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:68} WARNING - REQUEST_LOG	{"method": "GET", "code": "200 OK", "uri": "/auth?username=derbyps&password=derbyps", "request": null, "response": {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDA2NjgwOTIsIm5iZiI6MTYwMDY2ODA5MiwianRpIjoiYTVhZjkzYmEtNGM2My00OGUzLThmOWQtZjllZWYwMTQ2ZjU1IiwiZXhwIjoxNjAwNzU0NDkyLCJpZGVudGl0eSI6ImRlcmJ5cHMiLCJmcmVzaCI6ZmFsc2UsInR5cGUiOiJhY2Nlc3MiLCJ1c2VyX2NsYWltcyI6eyJpZCI6MiwidXNlcm5hbWUiOiJkZXJieXBzIiwic3RhdHVzIjpmYWxzZX19.eLRhzMAyZaU7ha21jklP-zQLKGPJrzcsvhFrGBTYTq8"}}
+[2020-09-21 13:01:46,576] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:68} WARNING - REQUEST_LOG	{"method": "GET", "code": "200 OK", "uri": "/user/list?", "request": {"full_name": "Derby P S", "username": "derbyps", "password": "derbyps", "email": "derby@gmail.com", "address": "Tandes Kidul II", "city": "Surabaya", "telephone": "085645692314"}, "response": [{"id": 1, "client_id": 2, "full_name": "Derby P S", "username": "derbyps", "email": "derby@gmail.com", "password": "36ca97ba24a24b2fedfdb0c99b94295f3df42c80b4fc9c2efe880fd0ce0c1c04d8ebc4d1e2350a4f27485bad2d7205e758c5b6fac09a3502c84ffea24536ba91", "address": "Tandes Kidul II", "city": "Surabaya", "telephone": "085645692314"}]}
+[2020-09-21 13:02:25,032] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:72} ERROR - 
+[2020-09-21 13:04:42,142] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:72} ERROR - 
+[2020-09-21 13:05:10,439] {/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py:1892} ERROR - Exception on /user/2 [GET]
+Traceback (most recent call last):
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 108, in wrapper
+    return fn(*args, **kwargs)
+TypeError: get() got an unexpected keyword argument 'id'
+[2020-09-21 13:05:10,442] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:72} ERROR - 
+[2020-09-21 13:05:16,095] {/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py:1892} ERROR - Exception on /user/1 [GET]
+Traceback (most recent call last):
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 468, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 583, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/alta8/Documents/ALTA-BATCH-5/venv/flask-venv/lib/python3.6/site-packages/flask_jwt_extended/view_decorators.py", line 108, in wrapper
+    return fn(*args, **kwargs)
+TypeError: get() got an unexpected keyword argument 'id'
+[2020-09-21 13:05:16,097] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:72} ERROR - 
+[2020-09-21 13:08:42,232] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:72} ERROR - 
+[2020-09-21 13:09:38,009] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:72} ERROR - 
+[2020-09-21 13:10:28,452] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:72} ERROR - 
+[2020-09-21 13:11:02,995] {/home/alta8/Documents/ALTA-BATCH-5/INTERVIEW/farmacare/blueprints/__init__.py:68} WARNING - REQUEST_LOG	{"method": "GET", "code": "200 OK", "uri": "/user?", "request": {"full_name": "Derby P S", "username": "derbyps", "password": "derbyps", "email": "derby@gmail.com", "address": "Tandes Kidul II", "city": "Surabaya", "telephone": "085645692314"}, "response": {"id": 1, "client_id": 2, "full_name": "Derby P S", "username": "derbyps", "email": "derby@gmail.com", "password": "36ca97ba24a24b2fedfdb0c99b94295f3df42c80b4fc9c2efe880fd0ce0c1c04d8ebc4d1e2350a4f27485bad2d7205e758c5b6fac09a3502c84ffea24536ba91", "address": "Tandes Kidul II", "city": "Surabaya", "telephone": "085645692314"}}
